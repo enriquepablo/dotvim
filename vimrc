@@ -16,6 +16,7 @@ Bundle 'gmarik/vundle'
 " original repos on github
 Bundle 'scrooloose/nerdtree'
 Bundle 'fholgado/minibufexpl.vim'
+Bundle 'scrooloose/syntastic'
 
 " vim-scripts repos
 " Bundle 'L9'

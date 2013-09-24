@@ -19,9 +19,9 @@ let g:BloggerLoaded = 1
 
 python << EOF
 import sys, os
+import vim
 ourdir = os.path.dirname(vim.eval('expand("<sfile>")'))
 sys.path.insert(0, ourdir)
-import vim
 from blogger import get_client
 def _apply(funname):
     client = get_client()
