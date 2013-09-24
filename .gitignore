@@ -1,3 +1,6 @@
 
+plugin/passwds.vim
 bundle
 *.swp
+*.pyc
+*.pyo
