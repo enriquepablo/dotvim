@@ -104,7 +104,7 @@ nnoremap <silent> <F3>  :r !date +"\%H:\%M:\%S"<CR>
 " nnoremap          <F6>  :FindFiles<Space>
 " nnoremap          <F7>  :GrepFiles<Space>
 nnoremap <silent> <F8>  :NERDTreeToggle<CR>
-" nnoremap <silent> <F9>  :Yakuake<CR>
+nnoremap <silent> <F9>  :Yakuake<CR>
 
 " NERDTree
 let g:NERDTreeIgnore=['\.swp$','\.pyc$','\.pyo$']

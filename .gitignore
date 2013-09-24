@@ -4,3 +4,4 @@ bundle
 *.swp
 *.pyc
 *.pyo
+blog/_build
