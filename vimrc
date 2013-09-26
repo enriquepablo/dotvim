@@ -17,6 +17,8 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'fholgado/minibufexpl.vim'
 Bundle 'scrooloose/syntastic'
+Bundle 'ivanov/vim-ipython'
+Bundle 'jmcantrell/vim-virtualenv'
 
 " vim-scripts repos
 " Bundle 'L9'
@@ -114,3 +116,7 @@ let g:NERDTreeIgnore=['\.swp$','\.pyc$','\.pyo$']
 " let pymode_lint_ignore="E123,E127,E128"
 
 autocmd BufRead,BufNewFile *.trm set filetype=terms
+
+" virtualenv
+"
+let g:virtualenv_directory = '/home/eperez/virtualenvs'
