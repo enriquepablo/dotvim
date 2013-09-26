@@ -59,4 +59,4 @@ function! s:OpenIPython()
     call SuperTabSetDefaultCompletionType("<c-x><c-u>")
 endfunction
 
-command Ipython :call s:OpenIPython()
+command! Ipython :call s:OpenIPython()
