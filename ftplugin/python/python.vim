@@ -45,3 +45,18 @@ EOF
 "endfunction
 
 "call LoadRope()
+"
+"
+
+" virtualenv
+let g:virtualenv_directory = '/home/eperez/virtualenvs'
+VirtualEnvActivate tools
+
+function! s:OpenIPython()
+    silent !ipython qtconsole & > /dev/null
+    sleep
+    IPython
+    call SuperTabSetDefaultCompletionType("<c-x><c-u>")
+endfunction
+
+command Ipython :call s:OpenIPython()

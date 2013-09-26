@@ -19,6 +19,7 @@ Bundle 'fholgado/minibufexpl.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'ivanov/vim-ipython'
 Bundle 'jmcantrell/vim-virtualenv'
+Bundle 'ervandew/supertab'
 
 " vim-scripts repos
 " Bundle 'L9'
@@ -103,6 +104,7 @@ command W w !sudo tee % >/dev/null
 " F keys mappings
 nnoremap <silent> <F2>  :r !date +"\%Y-\%m-\%d"<CR>
 nnoremap <silent> <F3>  :r !date +"\%H:\%M:\%S"<CR>
+nnoremap <silent> <F6>  :Ipython<CR>
 " nnoremap          <F6>  :FindFiles<Space>
 " nnoremap          <F7>  :GrepFiles<Space>
 nnoremap <silent> <F8>  :NERDTreeToggle<CR>
@@ -116,7 +118,3 @@ let g:NERDTreeIgnore=['\.swp$','\.pyc$','\.pyo$']
 " let pymode_lint_ignore="E123,E127,E128"
 
 autocmd BufRead,BufNewFile *.trm set filetype=terms
-
-" virtualenv
-"
-let g:virtualenv_directory = '/home/eperez/virtualenvs'
